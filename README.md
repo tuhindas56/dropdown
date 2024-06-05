@@ -4,7 +4,7 @@ Module implementing dropdown functionality.
 
 ## Install
 
-`npm i @tuhindas56/dropdown`
+`npm i @tuhindas56/simple-dropdown`
 
 ### Usage
 
@@ -17,7 +17,7 @@ Arguments:
 ### Example
 
 ```
-import dropdown from '@tuhindas56/dropdown'
+import dropdown from '@tuhindas56/simple-dropdown'
 
 const dropdownTrigger = document.querySelector('.dropdown-button')
 const dropdownContent = document.querySelector('.dropdown-content')
