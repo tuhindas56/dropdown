@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tuhindas56/dropdown/issues"
   },
-  "homepage": "https://github.com/tuhindas56/dropdown#readme"
+  "homepage": "https://github.com/tuhindas56/dropdown#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
 }

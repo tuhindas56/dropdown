@@ -1,12 +1,20 @@
 # dropdown
 
-Module implementing dropdown functionality
+Module implementing dropdown functionality.
 
 ## Install
 
 `npm i @tuhindas56/dropdown`
 
-### Example usage
+### Usage
+
+Arguments:
+
+- `triggeringElement` - Element that triggers the dropdown.
+- `dropdownContent` - Element containing dropdown contents.
+- `{ keepOpenOnContentClick: boolean }` - if set to `true`, clicking on the dropdown's contents does not close the dropdown and vice versa.
+
+### Example
 
 ```
 import dropdown from '@tuhindas56/dropdown'
@@ -14,9 +22,9 @@ import dropdown from '@tuhindas56/dropdown'
 const dropdownTrigger = document.querySelector('.dropdown-button')
 const dropdownContent = document.querySelector('.dropdown-content')
 
-dropdown(dropdownTrigger, dropdownContent)
+dropdown(dropdownTrigger, dropdownContent, { keepOpenOnContentClick: true })
 ```
 
 #### Note
 
-_Apply positional properties to relevant elements to not break page layout!_
+Apply appropriate _positional properties_ to relevant elements to prevent breaking the page layout.
