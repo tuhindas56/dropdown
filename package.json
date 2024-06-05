@@ -1,5 +1,5 @@
 {
-  "name": "@tuhindas56/dropdown",
+  "name": "@tuhindas56/simple-dropdown",
   "version": "1.0.0",
   "description": "Module implementing dropdown logic",
   "main": "./dist/index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tuhindas56/dropdown.git"
+    "url": "git+https://github.com/tuhindas56/simple-dropdown.git"
   },
   "author": "Tuhin Das",
   "license": "ISC",
   "types": "./dropdown.d.ts",
   "bugs": {
-    "url": "https://github.com/tuhindas56/dropdown/issues"
+    "url": "https://github.com/tuhindas56/simple-dropdown/issues"
   },
-  "homepage": "https://github.com/tuhindas56/dropdown#readme",
+  "homepage": "https://github.com/tuhindas56/simple-dropdown#readme",
   "devDependencies": {
     "typescript": "^5.4.5"
   }
