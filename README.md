@@ -1,4 +1,4 @@
-# dropdown
+# simple-dropdown
 
 Module implementing dropdown functionality.
 
