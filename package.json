@@ -1,0 +1,20 @@
+{
+  "name": "@tuhindas56/dropdown",
+  "version": "1.0.0",
+  "description": "Module implementing dropdown logic",
+  "main": "dropdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuhindas56/dropdown.git"
+  },
+  "author": "Tuhin Das",
+  "license": "ISC",
+  "types": "./dropdown.d.ts",
+  "bugs": {
+    "url": "https://github.com/tuhindas56/dropdown/issues"
+  },
+  "homepage": "https://github.com/tuhindas56/dropdown#readme"
+}
